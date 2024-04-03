@@ -15,7 +15,7 @@
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
@@ -37,13 +37,14 @@
         android:id="@+id/messageLeft"
         android:layout_width="174dp"
         android:layout_height="128dp"
+        android:layout_marginTop="30dp"
         android:src="@drawable/left"
-        app:layout_constraintBottom_toTopOf="@+id/textViewglow"
+        app:layout_constraintBottom_toBottomOf="@+id/background"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintHorizontal_bias="0.438"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.849" />
+        app:layout_constraintTop_toBottomOf="@+id/logo"
+        app:layout_constraintVertical_bias="0.039" />
 
     <TextView
         android:id="@+id/messageInside"
@@ -67,14 +68,13 @@
         android:id="@+id/textViewglow"
         android:layout_width="280dp"
         android:layout_height="340dp"
-        android:layout_marginTop="168dp"
         android:background="@drawable/glow"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/logo"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="@+id/Girl"
+        app:layout_constraintVertical_bias="0.281" />
 
     <TextView
         android:id="@+id/box"
@@ -97,25 +97,28 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="354dp"
+        android:layout_height="118dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="44dp"
         android:src="@drawable/plt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/background"
         app:layout_constraintTop_toBottomOf="@+id/textViewglow" />
 
     <ImageView
         android:id="@+id/Girl"
-        android:layout_width="500dp"
-        android:layout_height="500sp"
-        android:layout_marginEnd="72dp"
+        android:layout_width="198dp"
+        android:layout_height="486dp"
         android:scaleX="-1"
         android:src="@drawable/terms"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/background"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/background"
         app:layout_constraintTop_toBottomOf="@+id/logo"
-        app:layout_constraintVertical_bias="0.82" />
+        app:layout_constraintVertical_bias="0.735" />
 
     <ImageView
         android:id="@+id/btnyes"
