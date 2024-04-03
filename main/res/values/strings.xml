@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Assignment_1</string>
+    <string name="Age">Are you 14 years or Older?</string>
+    <string name="agree">By Clicking Continue,I Agree That I Am At Least 14 Years Old</string>
+    <string name="Yes">Yes, Continue</string>
+    <string name="No">No, I\'m Not 14</string>
+</resources>
