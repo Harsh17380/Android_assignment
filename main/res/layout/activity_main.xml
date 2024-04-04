@@ -56,7 +56,7 @@
         android:padding="5sp"
         android:text="@string/Age"
         android:textColor="#DA53F1"
-        android:textSize="13sp"
+        android:textSize="13dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/messageLeft"
         app:layout_constraintEnd_toEndOf="@+id/messageLeft"
